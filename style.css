@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow-y: hidden;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+}
+
+
+.container{
+    height: 95%;
+    width: 75%;
+    margin-left: 13%;
+    margin-top: 1%;
+    border-radius: 20px;
+    background-color: #5c5c5c;
+    display: flex;
+    gap: 2%;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .left{
+     height: 85%;
+     width: 32%;
+     padding: 2%;
+     padding-top: 3%;
+     background-color: #f4f4f4;
+     border-radius: 30px;
+}
+.container .left h1{
+    font-size: 31px;
+     font-weight: 800;
+}
+.container .left img{
+    width: 100%;
+    padding-top: 20%;
+}
+
+.container .right {
+    height: 85%;
+    width: 50%;
+    padding: 4%;
+    background-color: #76e9fb;
+    border-radius: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container .right .amount{
+    color: #3089aa;
+    display: flex;
+    align-items: center;
+    gap: 20%;
+} 
+.container .right .amount input{
+    border: none;
+    border-radius: 20px;
+    padding: 3%;
+    padding-right: 20%;
+    color: black;
+}
+
+.container .right .invest{
+    display: flex;
+    gap: 1%;
+    align-items: center;
+    color: #3089aa;
+}
+
+.container .right .invest .boxf{
+    /* width: 100px; */
+    margin-left: 16%;
+    padding: 10px 13px;
+    border: none;
+    border-radius: 20px; 
+}
+.container .right .invest .boxs{
+    width: 20px;
+    margin-left: 8%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+}
+
+
+.container .right .time{
+    display: flex;
+    gap: 17%;
+    align-items: center;
+    color: #3089aa;
+}
+
+.container .right .time .time-input{
+    display: flex;
+    align-items: center;
+
+}
+.container .right .time .time-input input{
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+}
+
+.container .right .rate{
+    display: flex;
+    gap: 17%;
+    align-items: center;
+    color: #3089aa;
+}
+
+.container .right .rate input{
+    border: none;
+    border-radius: 20px;
+    padding: 3%;
+    padding-right: 20%;
+    color: black;
+}
+
+.container .right .reinvest{
+    display: flex;
+    gap: 12%;
+    align-items: center;
+    color: #3089aa;
+}
+
+.container .right .reinvest input{
+    border: none;
+    border-radius: 20px;
+    padding: 3%;
+    padding-right: 20%;
+    color: black;
+}
+
+.container .right .contribution{
+    display: flex;
+    /* gap: 10%; */
+    justify-content: space-between;
+    align-items: center;
+    color: #3089aa;
+    margin-top: 0;
+}
+.container .right .cont-input{
+    display: flex;
+    margin-left: 8%;
+    align-items: center;
+    /* justify-content:space-between ; */
+    gap: 20%;
+}
+
+.container .right .cont-input input{
+    width: 60%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+}
+
+.container button{
+    margin-top: 5%;
+    margin-left: 40%;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    background-color: #fb9c2d;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.container button:hover{
+    background-color: #5c5c5c;
+}
+
+
